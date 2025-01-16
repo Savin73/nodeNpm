@@ -1,6 +1,10 @@
 import { add, subtract } from './math.js';
-a = 20;
-b = 5;
 
-console.log (add);
-console.log (subtract);
+let a = 20,
+    b = 5;
+
+let result = add(a, b);
+console.log(`${a} + ${b} = ${result}`);
+
+result = subtract(a, b);
+console.log(`${a} - ${b} = ${result}`);
