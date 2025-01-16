@@ -1,7 +1,7 @@
-import { add, subtract } from './math.js';
+import { add, subtract } from "./math.js";
 
 let a = 20,
-    b = 5;
+  b = 5;
 
 let result = add(a, b);
 console.log(`${a} + ${b} = ${result}`);
