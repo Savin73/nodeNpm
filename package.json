@@ -8,7 +8,7 @@
     "start": "node server.js",
     "parsel": "parcel src/index.html"
   },
-  "author": "",
+  "author": "savin73",
   "license": "ISC",
   "dependencies": {
     "express": "^4.21.2",
